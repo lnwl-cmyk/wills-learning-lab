@@ -6,11 +6,11 @@
   <meta name="description" content="Filter fictional learning resource ideas by HTML, CSS or JavaScript.">
   <title>Resources | Will’s Learning Lab</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header><div class="wrap header-inner"><a class="brand" href="index.html">Will’s Learning Lab</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="resources.html" aria-current="page">Resources</a></nav></div></header>
+  <header><div class="wrap header-inner"><a class="brand" href="index.html">Will’s Learning Lab</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="resources.html" aria-current="page">Resources</a></nav><button type="button" id="theme-toggle" aria-pressed="false" hidden>Dark mode</button></div></header>
   <main id="main" class="wrap" tabindex="-1">
     <p class="eyebrow">THE LIBRARY</p><h1>Learning resources</h1><p>Fictional exercise ideas to try in your own projects. These are sample descriptions, not external courses.</p>
     <div id="filter-controls" hidden><label for="category">Filter by topic</label><select id="category"><option value="all">All topics</option><option value="html">HTML</option><option value="css">CSS</option><option value="javascript">JavaScript</option></select><p id="result-count" role="status" aria-live="polite"></p></div>
