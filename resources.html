@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Filter fictional learning resource ideas by HTML, CSS or JavaScript.">
+  <title>Resources | Will’s Learning Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><div class="wrap header-inner"><a class="brand" href="index.html">Will’s Learning Lab</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="resources.html" aria-current="page">Resources</a></nav></div></header>
+  <main id="main" class="wrap" tabindex="-1">
+    <p class="eyebrow">THE LIBRARY</p><h1>Learning resources</h1><p>Fictional exercise ideas to try in your own projects. These are sample descriptions, not external courses.</p>
+    <div id="filter-controls" hidden><label for="category">Filter by topic</label><select id="category"><option value="all">All topics</option><option value="html">HTML</option><option value="css">CSS</option><option value="javascript">JavaScript</option></select><p id="result-count" role="status" aria-live="polite"></p></div>
+    <noscript><p>JavaScript is disabled. All resources are displayed.</p></noscript>
+    <div class="grid" id="resource-list">
+      <article class="card resource" data-category="html"><p class="tag">HTML</p><h2>Your First Web Page</h2><p>Practice headings, paragraphs and semantic page structure.</p></article>
+      <article class="card resource" data-category="css"><p class="tag">CSS</p><h2>The Color and Spacing Lab</h2><p>Experiment with contrast, spacing and typography.</p></article>
+      <article class="card resource" data-category="javascript"><p class="tag">JavaScript</p><h2>A Simple Resource Filter</h2><p>Explore events and how JavaScript changes a page.</p></article>
+      <article class="card resource" data-category="html"><p class="tag">HTML</p><h2>Accessible Navigation</h2><p>Practice meaningful links and keyboard navigation.</p></article>
+      <article class="card resource" data-category="css"><p class="tag">CSS</p><h2>Responsive Layout Workshop</h2><p>Try flexible grids and mobile-friendly layouts.</p></article>
+      <article class="card resource" data-category="javascript"><p class="tag">JavaScript</p><h2>Working with the DOM</h2><p>Learn how to select and update page elements.</p></article>
+    </div>
+  </main>
+  <footer><div class="wrap">Will’s Learning Lab · A personal, noncommercial practice project. All sample content is fictional.</div></footer>
+</body>
+</html>
